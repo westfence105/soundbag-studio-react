@@ -2,13 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #cef;
-  width: 100vw;
-  height: 100vh;
+  background-color: #acf;
 }
 
 #root {
-    height: 100%;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 h1 {
