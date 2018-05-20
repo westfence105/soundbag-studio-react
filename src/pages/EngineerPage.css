@@ -1,0 +1,18 @@
+.page-title {
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.page-content {
+    text-align: center;
+    margin: auto 2rem;
+    font-size: 18px;
+}
+
+.engineer-history {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    text-align: left;
+    line-height: 2rem;
+}

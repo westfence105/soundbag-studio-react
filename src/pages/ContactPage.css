@@ -1,0 +1,82 @@
+.page-title {
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.page-content {
+    text-align: center;
+    margin: auto 2rem;
+    font-size: 18px;
+}
+
+.contact-page .page-content {
+    background-color: #fff;
+    padding: 2.5rem;
+}
+
+.contact-form .table {
+    max-width: 800px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-form .th {
+    text-align: right;
+    min-width: 10rem;
+    vertical-align: middle;
+}
+
+.contact-form .td {
+    text-align: left;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-form .td input:not(.contact-form-submit) {
+    width: 90%;
+    padding: .5rem .5rem;
+}
+
+.contact-form .td textarea {
+    width: 90%;
+    height: 8rem;
+    padding: .5rem .5rem;
+}
+
+.container-submit {
+    text-align: right;
+    margin-right: 18%;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px){
+    .contact-form .table {
+        font-size: 18px;
+    }
+
+    .contact-form .th {
+        min-width: 8rem;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .contact-form .table {
+        font-size: 16px;
+    }
+
+    .contact-form .th {
+        min-width: 6rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .contact-form .table {
+        font-size: 16px;
+    }
+
+    .contact-form .th {
+        min-width: 5rem;
+    }
+}

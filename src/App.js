@@ -9,6 +9,10 @@ import './App.css';
 import HeaderLink from './components/HeaderLink';
 import MainTitlePage from './pages/MainTitlePage';
 import AboutPage from './pages/AboutPage';
+import ProfilePage from './pages/ProfilePage';
+import EngineerPage from './pages/EngineerPage';
+import MusicPage from './pages/MusicPage';
+import ContactPage from './pages/ContactPage';
 
 class App extends Component {
   render() {
@@ -30,6 +34,10 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/" component={ MainTitlePage } />
                     <Route exact path="/about" component={ AboutPage } />
+                    <Route exact path="/profile" component={ ProfilePage } />
+                    <Route exact path="/engineer" component={ EngineerPage } />
+                    <Route exact path="/music" component={ MusicPage } />
+                    <Route exact path="/contact" component={ ContactPage } />
                 </Switch>
             </div>
           </div>

@@ -74,6 +74,23 @@ hr.star::after {
     background-color: #acf;
 }
 
+.table {
+    display: table;
+}
+
+.tr {
+    display: table-row;
+}
+
+.th {
+    display: table-cell;
+    font-weight: bold;
+}
+
+.td {
+    display: table-cell;
+}
+
 @media screen and (max-width: 910px){
     .App-header {
         padding-right: 6vw;
